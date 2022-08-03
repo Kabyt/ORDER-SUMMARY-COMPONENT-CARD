@@ -1,0 +1,89 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+:root {
+    --very-pale-blue: hsl(225, 100%, 98%) ;
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+}
+
+body {
+    background-color: var(--pale-blue);
+    font-family: "Red-Hat-Display" sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+p {
+    color: var(--desaturated-blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    margin: 70px auto;
+    background-color: white; 
+    border-radius: 10px;
+}
+
+
+img, picture {
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+
+ .content {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: space-around;
+
+ }
+ .content, div {
+    text-align: center;
+ }
+
+ .plan {
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background-color: var(--very-pale-blue);
+
+ }
+
+ .plan-block {
+    line-height: 4px;
+    display: block;
+    
+ }
+
+ a {
+    color: var(--bright-blue);
+    font-weight: 900px;
+   
+ }
+
+ .btn {
+    margin: 16px;
+    font-size: 11px;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--bright-blue);
+    padding: 15px;
+    border: none;
+}  
+
+.attribute {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 11px;
+}
